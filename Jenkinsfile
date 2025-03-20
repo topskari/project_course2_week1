@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                branch 'main', git 'https://github.com/topskari/project_course2_week1'
+                git branch: 'main', url: 'https://github.com/topskari/project_course2_week1'
             }
         }
         stage('Build') {
