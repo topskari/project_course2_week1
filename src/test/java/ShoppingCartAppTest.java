@@ -10,4 +10,5 @@ public class ShoppingCartAppTest {
         assertEquals(150.0, app.calculateCost(50.0, 3), 0.0);
     }
 
+
 }
